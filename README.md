@@ -64,8 +64,8 @@ A tightly integrated, zero-overhead developer toolchain designed to optimize con
 ### 📊 GitHub Activity & Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aloneangel45&show_icons=true&theme=catppuccin_mocha&hide_border=true&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&bg_color=1e1e2e" alt="GitHub Stats" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aloneangel45&theme=catppuccin_mocha&hide_border=true&stroke=cba6f7&ring=89b4fa&fire=f38ba8&currStreakLabel=cba6f7" alt="GitHub Streak" width="48%"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aloneangel45&show_icons=true&theme=catppuccin_mocha&hide_border=true&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&bg_color=1e1e2e" alt="GitHub Stats" width="48%"/>
+  <img src="https://streak-stats.demolab.com/?user=aloneangel45&theme=catppuccin_mocha&hide_border=true&stroke=cba6f7&ring=89b4fa&fire=f38ba8&currStreakLabel=cba6f7" alt="GitHub Streak" width="48%"/>
 </p>
 
 ---
