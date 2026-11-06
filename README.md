@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm Arda (<a href="https://github.com/aloneangel45">@aloneangel45</a>) 👋</h1>
+<h1 align="center">Hi there, I'm Arda (<a href="https://github.com/aloneangel45">@aloneangel45</a>) </h1>
 
 <p align="center">
   <strong>Systems Engineer & Agentic AI Infrastructure Architect</strong><br>
@@ -14,20 +14,20 @@
 
 ---
 
-### 🚀 Featured Ecosystem: Agentic Infrastructure & Systems Tooling
+### Featured Ecosystem: Agentic Infrastructure & Systems Tooling
 
 A tightly integrated, zero-overhead developer toolchain designed to optimize context window economics, guarantee replay determinism, and maintain laser focus:
 
 | Project | Role & Purpose | Key Highlights | Stack |
 | :--- | :--- | :--- | :---: |
-| ⚡ **[ToolPrune](https://github.com/aloneangel45/toolprune)** | **High-Throughput MCP Proxy & Schema Pruner** | Cuts verbose MCP JSON schemas by **91.4%**, drastically reducing token consumption and latency for Claude Code, Cursor, and Windsurf. | `Go` `MCP` `JSON-RPC` |
-| 🛰️ **[TracePort](https://github.com/aloneangel45/traceport)** | **Deterministic Flight Recorder & Replay Debugger** | Black-box flight recorder capturing AI agent tool calls with Git shadow-tree checkpointing for **$0 zero-token error recovery**. | `Go` `Git` `SQLite WAL` |
-| 📼 **[AgentFixture](https://github.com/aloneangel45/AgentFixture)** | **Zero-Cost Deterministic CI/CD Cassette Runner** | Ingests TracePort flight recordings into replayable offline cassettes. Run full AI agent regression test suites in CI for **$0 API cost**. | `Go` `CI/CD` `Proxy` |
-| 🎯 **[FocusFlow V2](https://github.com/aloneangel45/FocusFlow)** | **Deep Work Discipline Engine & Desktop HUD** | High-DPI Catppuccin Mocha HUD with kernel-level SHA-256 atomic hosts rollback and low-overhead Win32/POSIX process supervision. | `Python` `Go` `Win32` |
+|  **[ToolPrune](https://github.com/aloneangel45/toolprune)** | **High-Throughput MCP Proxy & Schema Pruner** | Cuts verbose MCP JSON schemas by **91.4%**, drastically reducing token consumption and latency for Claude Code, Cursor, and Windsurf. | `Go` `MCP` `JSON-RPC` |
+|  **[TracePort](https://github.com/aloneangel45/traceport)** | **Deterministic Flight Recorder & Replay Debugger** | Black-box flight recorder capturing AI agent tool calls with Git shadow-tree checkpointing for **$0 zero-token error recovery**. | `Go` `Git` `SQLite WAL` |
+|  **[AgentFixture](https://github.com/aloneangel45/AgentFixture)** | **Zero-Cost Deterministic CI/CD Cassette Runner** | Ingests TracePort flight recordings into replayable offline cassettes. Run full AI agent regression test suites in CI for **$0 API cost**. | `Go` `CI/CD` `Proxy` |
+|  **[FocusFlow V2](https://github.com/aloneangel45/FocusFlow)** | **Deep Work Discipline Engine & Desktop HUD** | High-DPI Catppuccin Mocha HUD with kernel-level SHA-256 atomic hosts rollback and low-overhead Win32/POSIX process supervision. | `Python` `Go` `Win32` |
 
 ---
 
-### 🏗️ Ecosystem Architecture Workflow
+### Ecosystem Architecture Workflow
 
 ```
    ┌─────────────────────────────────────────────────────────────┐
@@ -51,7 +51,7 @@ A tightly integrated, zero-overhead developer toolchain designed to optimize con
 
 ---
 
-### 💻 Core Tech Stack & Engineering Focus
+### Core Tech Stack & Engineering Focus
 
 * **Languages:** Go, Rust, Python, C/C++, TypeScript, Modern Shell / PowerShell
 * **Systems & Low-Level:** Win32 API (`Toolhelp32`, Job Objects), POSIX (`/proc`, `ps`), Signal Handling, IPC (Stdio, SSE, Unix Sockets)
@@ -61,7 +61,7 @@ A tightly integrated, zero-overhead developer toolchain designed to optimize con
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### GitHub Activity & Metrics
 
 <p align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=aloneangel45&show_icons=true&theme=catppuccin_mocha&hide_border=true&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&bg_color=1e1e2e" alt="GitHub Stats" width="48%"/>
