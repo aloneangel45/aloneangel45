@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Arda (<a href="https://github.com/aloneangel45">@aloneangel45</a>) </h1>
 
 <p align="center">
-  <strong>Systems Engineer & Agentic AI Infrastructure Architect</strong><br>
+  <strong>Building reliable, deterministic infrastructure for AI agents and developer tooling.</strong><br>
   Engineering high-throughput, deterministic runtime tooling and low-level system utilities for the next generation of autonomous AI developers.
 </p>
 
