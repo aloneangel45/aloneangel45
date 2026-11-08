@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/aloneangel45/toolprune"><img src="https://img.shields.io/badge/ToolPrune-v1.0.0-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="ToolPrune"/></a>
+  <a href="https://github.com/aloneangel45/toolprune"><img src="https://img.shields.io/badge/ToolPrune-v1.1.0-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="ToolPrune"/></a>
   <a href="https://github.com/aloneangel45/traceport"><img src="https://img.shields.io/badge/TracePort-v1.0.0-8b5cf6?style=for-the-badge&logo=satellite&logoColor=white" alt="TracePort"/></a>
   <a href="https://github.com/aloneangel45/FocusFlow"><img src="https://img.shields.io/badge/FocusFlow_V2-v1.0.0-cba6f7?style=for-the-badge&logo=windows&logoColor=white" alt="FocusFlow"/></a>
   <a href="https://github.com/aloneangel45/AgentFixture"><img src="https://img.shields.io/badge/AgentFixture-v1.0.0-f59e0b?style=for-the-badge&logo=githubactions&logoColor=white" alt="AgentFixture"/></a>
