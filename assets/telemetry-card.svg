@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" role="img" aria-label="Arda Engineering Telemetry">
+  <defs>
+    <clipPath id="barClip">
+      <rect x="24" y="136" width="447" height="8" rx="4"/>
+    </clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="#1e1e2e" stroke="#313244" stroke-width="1"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif">
+    <text x="24" y="31" fill="#cba6f7" font-size="15.5" font-weight="700">Engineering &amp; Codebase Telemetry</text>
+    <text x="471" y="30" text-anchor="end" fill="#6c7086" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">2026-11-14 UTC</text>
+
+    <!-- Metric Grid (2x2) -->
+    <text x="24" y="60" fill="#a6adc8" font-size="12">1Y Contributions:</text>
+    <text x="195" y="60" text-anchor="end" fill="#cdd6f4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" font-weight="700">153</text>
+
+    <text x="24" y="84" fill="#a6adc8" font-size="12">Commits &amp; PRs:</text>
+    <text x="195" y="84" text-anchor="end" fill="#89b4fa" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" font-weight="700">106 / 20</text>
+
+    <text x="24" y="108" fill="#a6adc8" font-size="12">Flagship Source:</text>
+    <text x="195" y="108" text-anchor="end" fill="#94e2d5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" font-weight="700">2.51 MB</text>
+
+    <line x1="232" y1="47" x2="232" y2="114" stroke="#313244" stroke-width="1"/>
+
+    <text x="256" y="60" fill="#a6adc8" font-size="12">Owned Flagships:</text>
+    <text x="471" y="60" text-anchor="end" fill="#cdd6f4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" font-weight="700">5 Public</text>
+
+    <text x="256" y="84" fill="#a6adc8" font-size="12">Shipped Releases:</text>
+    <text x="471" y="84" text-anchor="end" fill="#f9e2af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" font-weight="700">21 Multi-Arch</text>
+
+    <text x="256" y="108" fill="#a6adc8" font-size="12">CI Matrix Health:</text>
+    <text x="471" y="108" text-anchor="end" fill="#a6e3a1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" font-weight="700">100% Passing</text>
+
+    <!-- Language Distribution Bar -->
+    <rect x="24" y="136" width="447" height="8" rx="4" fill="#313244"/>
+    <g clip-path="url(#barClip)">
+      <rect x="24.0" y="136" width="397.9" height="8" fill="#00ADD8"/><rect x="421.9" y="136" width="38.5" height="8" fill="#3572A5"/><rect x="460.4" y="136" width="5.9" height="8" fill="#89b4fa"/><rect x="466.2" y="136" width="4.8" height="8" fill="#a6e3a1"/>
+    </g>
+
+    <!-- Language Legend -->
+    <circle cx="28" cy="162" r="4" fill="#00ADD8"/><text x="37" y="166" fill="#cdd6f4" font-size="11" font-weight="600">Go</text><text x="37" y="180" fill="#7f849c" font-size="10">89.0%</text><circle cx="142" cy="162" r="4" fill="#3572A5"/><text x="151" y="166" fill="#cdd6f4" font-size="11" font-weight="600">Python</text><text x="151" y="180" fill="#7f849c" font-size="10">8.6%</text><circle cx="256" cy="162" r="4" fill="#89b4fa"/><text x="265" y="166" fill="#cdd6f4" font-size="11" font-weight="600">PowerShell</text><text x="265" y="180" fill="#7f849c" font-size="10">1.3%</text><circle cx="370" cy="162" r="4" fill="#a6e3a1"/><text x="379" y="166" fill="#cdd6f4" font-size="11" font-weight="600">Shell</text><text x="379" y="180" fill="#7f849c" font-size="10">1.0%</text>
+  </g>
+</svg>

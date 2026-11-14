@@ -1,0 +1,35 @@
+name: Refresh Profile Telemetry
+
+on:
+  schedule:
+    - cron: '15 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  telemetry:
+    name: Regenerate Telemetry SVG
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate assets/telemetry-card.svg from live GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_telemetry.py
+
+      - name: Commit updated SVG if changed
+        run: |
+          if [[ -n "$(git status --porcelain assets/telemetry-card.svg)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/telemetry-card.svg
+            git commit -m "chore(telemetry): refresh live profile telemetry card [skip ci]"
+            git push
+          fi

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 350" width="1080" height="350" role="img" aria-label="Agentic Infrastructure &amp; Binary Forensics Architecture">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181825"/>
+      <stop offset="100%" stop-color="#1e1e2e"/>
+    </linearGradient>
+    <pattern id="archGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#313244" stroke-width="0.6" stroke-opacity="0.38"/>
+    </pattern>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#89b4fa"/>
+    </marker>
+    <marker id="arrowMauve" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#cba6f7"/>
+    </marker>
+    <marker id="arrowPink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#f38ba8"/>
+    </marker>
+    <marker id="arrowYellow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#f9e2af"/>
+    </marker>
+  </defs>
+
+  <rect x="2" y="2" width="1076" height="346" rx="16" fill="url(#archBg)" stroke="#313244" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1076" height="346" rx="16" fill="url(#archGrid)"/>
+
+  <!-- Top Center Hub: AI Coding Agent -->
+  <rect x="330" y="24" width="420" height="62" rx="12" fill="#11111b" stroke="#cba6f7" stroke-width="1.6"/>
+  <text x="540" y="50" text-anchor="middle" fill="#cdd6f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15.5" font-weight="700">AI Coding Agent &amp; RE Workstation</text>
+  <text x="540" y="71" text-anchor="middle" fill="#a6adc8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">Claude Code · Cursor · Windsurf · VS Code · Zed · CLI</text>
+
+  <!-- Connectors from Top Hub -->
+  <path d="M 390 86 L 175 134" fill="none" stroke="#f38ba8" stroke-width="1.7" marker-end="url(#arrowPink)"/>
+  <path d="M 480 86 L 415 134" fill="none" stroke="#89b4fa" stroke-width="1.7" marker-end="url(#arrowBlue)"/>
+  <path d="M 600 86 L 665 134" fill="none" stroke="#cba6f7" stroke-width="1.7" marker-end="url(#arrowMauve)"/>
+  <path d="M 690 86 L 905 134" fill="none" stroke="#f9e2af" stroke-width="1.7" marker-end="url(#arrowYellow)"/>
+
+  <!-- Card 1: SymForge -->
+  <g transform="translate(32, 138)">
+    <rect x="0" y="0" width="235" height="106" rx="12" fill="#181825" stroke="#f38ba8" stroke-opacity="0.7" stroke-width="1.4"/>
+    <text x="16" y="26" fill="#f38ba8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="700">SymForge</text>
+    <text x="180" y="26" fill="#7f849c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">MCP / CLI</text>
+    <text x="16" y="48" fill="#cdd6f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="600">Stripped Go &amp; Rust Forensics</text>
+    <text x="16" y="68" fill="#a6adc8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">pclntab · v0 · Structs/VTables</text>
+    <text x="16" y="86" fill="#94e2d5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">x86_64/ARM64 XREF · Ghidra/IDA</text>
+  </g>
+
+  <!-- Card 2: ToolPrune -->
+  <g transform="translate(292, 138)">
+    <rect x="0" y="0" width="235" height="106" rx="12" fill="#181825" stroke="#89b4fa" stroke-opacity="0.7" stroke-width="1.4"/>
+    <text x="16" y="26" fill="#89b4fa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="700">ToolPrune</text>
+    <text x="168" y="26" fill="#7f849c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Gateway</text>
+    <text x="16" y="48" fill="#cdd6f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="600">Adaptive MCP Token Proxy</text>
+    <text x="16" y="68" fill="#a6adc8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">93.3%–96.5% Schema Reduction</text>
+    <text x="16" y="86" fill="#94e2d5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">&lt;0.4ms Pass · Stdio/SSE/HTTP</text>
+  </g>
+
+  <!-- Card 3: TracePort -->
+  <g transform="translate(552, 138)">
+    <rect x="0" y="0" width="235" height="106" rx="12" fill="#181825" stroke="#cba6f7" stroke-opacity="0.7" stroke-width="1.4"/>
+    <text x="16" y="26" fill="#cba6f7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="700">TracePort</text>
+    <text x="172" y="26" fill="#7f849c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">CAS / Log</text>
+    <text x="16" y="48" fill="#cdd6f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="600">Shadow-Tree Flight Recorder</text>
+    <text x="16" y="68" fill="#a6adc8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Zstd Dict CAS (-86.1% Size)</text>
+    <text x="16" y="86" fill="#94e2d5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">557µs Scan · $0 Instant Rollback</text>
+  </g>
+
+  <!-- Card 4: AgentFixture -->
+  <g transform="translate(812, 138)">
+    <rect x="0" y="0" width="235" height="106" rx="12" fill="#181825" stroke="#f9e2af" stroke-opacity="0.7" stroke-width="1.4"/>
+    <text x="16" y="26" fill="#f9e2af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="700">AgentFixture</text>
+    <text x="176" y="26" fill="#7f849c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">CI / SDK</text>
+    <text x="16" y="48" fill="#cdd6f4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="600">Deterministic Cassette Runner</text>
+    <text x="16" y="68" fill="#a6adc8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Anthropic/OpenAI SSE Replay</text>
+    <text x="16" y="86" fill="#94e2d5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Zero-Network Guard · Go SDK</text>
+  </g>
+
+  <!-- TracePort -> AgentFixture Bridge -->
+  <path d="M 787 191 L 810 191" fill="none" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#arrowYellow)"/>
+
+  <!-- Bottom Foundation Bar: FocusFlow -->
+  <g transform="translate(32, 272)">
+    <rect x="0" y="0" width="1015" height="54" rx="12" fill="#11111b" stroke="#94e2d5" stroke-opacity="0.65" stroke-width="1.3"/>
+    <circle cx="24" cy="27" r="5" fill="#94e2d5"/>
+    <text x="40" y="32" fill="#94e2d5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="14.5" font-weight="700">FocusFlow Host Layer</text>
+    <text x="206" y="32" fill="#cdd6f4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">Atomic SHA-256 Dual-Stack IPv4/IPv6 Sinkholing · Win32 DACL &amp; POSIX Process Supervisor · Catppuccin Mocha HUD</text>
+  </g>
+</svg>
