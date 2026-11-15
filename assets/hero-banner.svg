@@ -81,24 +81,24 @@
     <rect x="266" y="226" width="204" height="34" rx="9" fill="#181825" stroke="#89b4fa" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="284" cy="243" r="4.5" fill="#89b4fa"/>
     <text x="296" y="247" fill="#cdd6f4">ToolPrune</text>
-    <text x="410" y="247" fill="#89b4fa">v1.3.1</text>
+    <text x="410" y="247" fill="#89b4fa">v1.3.2</text>
 
     <!-- TracePort -->
     <rect x="484" y="226" width="204" height="34" rx="9" fill="#181825" stroke="#cba6f7" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="502" cy="243" r="4.5" fill="#cba6f7"/>
     <text x="514" y="247" fill="#cdd6f4">TracePort</text>
-    <text x="628" y="247" fill="#cba6f7">v1.2.1</text>
+    <text x="628" y="247" fill="#cba6f7">v1.2.2</text>
 
     <!-- AgentFixture -->
     <rect x="702" y="226" width="224" height="34" rx="9" fill="#181825" stroke="#f9e2af" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="720" cy="243" r="4.5" fill="#f9e2af"/>
     <text x="732" y="247" fill="#cdd6f4">AgentFixture</text>
-    <text x="866" y="247" fill="#f9e2af">v1.2.1</text>
+    <text x="866" y="247" fill="#f9e2af">v1.2.2</text>
 
     <!-- FocusFlow -->
     <rect x="940" y="226" width="204" height="34" rx="9" fill="#181825" stroke="#94e2d5" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="958" cy="243" r="4.5" fill="#94e2d5"/>
     <text x="970" y="247" fill="#cdd6f4">FocusFlow</text>
-    <text x="1084" y="247" fill="#94e2d5">v2.2.1</text>
+    <text x="1084" y="247" fill="#94e2d5">v2.2.2</text>
   </g>
 </svg>
