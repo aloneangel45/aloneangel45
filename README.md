@@ -7,6 +7,7 @@
 <br/>
 
 <p align="center">
+  <a href="https://github.com/aloneangel45/MCPGate/releases/latest"><img src="https://img.shields.io/github/v/release/aloneangel45/MCPGate?label=MCPGate&style=for-the-badge&logo=go&logoColor=white&color=a6e3a1&labelColor=181825" alt="MCPGate Latest Release"/></a>
   <a href="https://github.com/aloneangel45/SymForge/releases/latest"><img src="https://img.shields.io/github/v/release/aloneangel45/SymForge?label=SymForge&style=for-the-badge&logo=go&logoColor=white&color=f38ba8&labelColor=181825" alt="SymForge Latest Release"/></a>
   <a href="https://github.com/aloneangel45/toolprune/releases/latest"><img src="https://img.shields.io/github/v/release/aloneangel45/toolprune?label=ToolPrune&style=for-the-badge&logo=go&logoColor=white&color=89b4fa&labelColor=181825" alt="ToolPrune Latest Release"/></a>
   <a href="https://github.com/aloneangel45/traceport/releases/latest"><img src="https://img.shields.io/github/v/release/aloneangel45/traceport?label=TracePort&style=for-the-badge&logo=git&logoColor=white&color=cba6f7&labelColor=181825" alt="TracePort Latest Release"/></a>
@@ -19,35 +20,40 @@
 
 ### Flagship Open-Source Suite
 
-Zero-bloat, `CGO_ENABLED=0` developer infrastructure built for **stripped binary forensics**, **MCP context optimization**, **deterministic workspace checkpointing**, **offline agent CI**, and **deep-work discipline**:
+Zero-bloat, `CGO_ENABLED=0` developer infrastructure built for **zero-trust MCP security**, **stripped binary forensics**, **MCP context optimization**, **deterministic workspace checkpointing**, **offline agent CI**, and **deep-work discipline**:
 
 | Project | Domain | Engineering Highlights | CI | Stack |
 | :--- | :--- | :--- | :---: | :---: |
-| **[SymForge](https://github.com/aloneangel45/SymForge)** | **Stripped Go & Rust Binary Forensics + MCP** | Pure-Go `ELF`/`PE`/`Mach-O` + Fat loader, multi-version `gopclntab` (Go 1.2–1.27+), `firstmoduledata` struct/interface & Rust `v0`/vtable/panic recovery, `x86_64` & `ARM64` call/string/crypto XREFs, **Ghidra/IDA/Binja** scripts, CycloneDX 1.5 SBOMs, and 8-tool MCP server. | [![CI](https://github.com/aloneangel45/SymForge/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/SymForge/actions/workflows/ci.yml) | `Go` `Rust RE` `MCP` |
-| **[ToolPrune](https://github.com/aloneangel45/toolprune)** | **Adaptive MCP Proxy & Token-Budget Gateway** | Progressive `--max-schema-tokens` compaction, semantic BM25 hydration, and multi-upstream multiplexing cutting MCP tool schema overhead by **93.3%–96.5%** at **<0.4ms** pass-through latency across `stdio`, `SSE`, and `/mcp`. | [![CI](https://github.com/aloneangel45/toolprune/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/toolprune/actions/workflows/ci.yml) | `Go` `MCP` `JSON-RPC` |
-| **[TracePort](https://github.com/aloneangel45/traceport)** | **Zstd Shadow-Tree & Agent Flight Recorder** | Content-addressable workspace checkpointing with Zstd preset/trained dictionaries (**86.1% footprint reduction**, **557µs** stat-cached scan) and `O(1)` append-only JSONL flight logs for **$0 zero-token rollback**. | [![CI](https://github.com/aloneangel45/traceport/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/traceport/actions/workflows/ci.yml) | `Go` `Zstd` `CAS` |
-| **[AgentFixture](https://github.com/aloneangel45/AgentFixture)** | **Deterministic $0 CI/CD Cassette Runner** | Native Anthropic & OpenAI SSE stream recording/replay (`instant`/`scaled`/`exact`), zero-outbound-network guard, 16MB MCP `stdio` interceptor, Go `agenttest` SDK, and direct TracePort checkpoint import. | [![CI](https://github.com/aloneangel45/AgentFixture/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/AgentFixture/actions/workflows/ci.yml) | `Go` `SSE` `CI/CD` |
-| **[FocusFlow](https://github.com/aloneangel45/FocusFlow)** | **Deep Work Discipline Engine & Desktop HUD** | Unified Go CLI and zero-dependency Python Catppuccin Mocha HUD with atomic SHA-256 dual-stack IPv4/IPv6 `hosts` sinkholing, Win32 DACL preservation, and low-overhead Win32/POSIX process supervision. | [![CI](https://github.com/aloneangel45/FocusFlow/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/FocusFlow/actions/workflows/ci.yml) | `Go` `Python` `Win32` |
+| **[MCPGate](https://github.com/aloneangel45/MCPGate)** | **Zero-Trust OS Sandbox & Egress DLP Firewall** | Wraps any MCP server/agent with Win32 Job/Landlock/Seatbelt containment, HTTP/HTTPS `CONNECT` egress firewall + SSRF/IMDS & `.env` DLP blocking, SHA-256 rug-pull locks, circuit breakers, OWASP MCP Top 10 SARIF/HTML audits, and read-only MCP server. | [![CI](https://github.com/aloneangel45/MCPGate/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/MCPGate/actions/workflows/ci.yml) | `Go` `Security` `MCP` |
+| **[SymForge](https://github.com/aloneangel45/SymForge)** | **Stripped Go & Rust Binary Forensics + MCP** | Pure-Go `ELF`/`PE`/`Mach-O` + Fat `--arch` loader with native IAT/Dylib imports, Go 1.2–1.27+ `pclntab`/`abi.Type` & Rust `v0`/vtable recovery, binary `diff`, `scan` (`garble`/IoC triage), BFS `path` + DOT/Mermaid graphs, Ghidra/IDA/Binja scripts, and 11-tool MCP server. | [![CI](https://github.com/aloneangel45/SymForge/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/SymForge/actions/workflows/ci.yml) | `Go` `Rust RE` `MCP` |
+| **[ToolPrune](https://github.com/aloneangel45/toolprune)** | **Adaptive MCP Proxy, Security Guard & Token Gateway** | Progressive `--max-schema-tokens` & `--max-response-tokens` pruning (**93.3%–96.5%** reduction at **<0.4ms**), SHA-256 rug-pull lock & tool-poisoning guard, `audit --all-ides` (SARIF 2.1.0), and live `top`/Prometheus telemetry across `stdio`, `SSE`, and `/mcp`. | [![CI](https://github.com/aloneangel45/toolprune/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/toolprune/actions/workflows/ci.yml) | `Go` `MCP` `JSON-RPC` |
+| **[TracePort](https://github.com/aloneangel45/traceport)** | **Zstd Shadow-Tree, Flight Recorder & Self-Healing MCP** | Content-addressable Zstd shadow-tree checkpointing (**86.1% footprint reduction**), native redacted `traceport mcp` + IDE `preset`, interactive dark-mode HTML timeline export, and `.gitignore`-aware `traceport watch` for **$0 zero-token rollback**. | [![CI](https://github.com/aloneangel45/traceport/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/traceport/actions/workflows/ci.yml) | `Go` `Zstd` `MCP` |
+| **[AgentFixture](https://github.com/aloneangel45/AgentFixture)** | **Deterministic $0 CI/CD & Chaos Cassette Runner** | Anthropic/OpenAI/Gemini SSE + MCP `stdio` replay, deterministic chaos injection (`429`/`529`/SSE drop), hybrid `--record-mode new_episodes`, USD/token/prompt-cache budgets + `$GITHUB_STEP_SUMMARY`, and parallel `agentfixture test` suite runner. | [![CI](https://github.com/aloneangel45/AgentFixture/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/AgentFixture/actions/workflows/ci.yml) | `Go` `SSE` `CI/CD` |
+| **[FocusFlow](https://github.com/aloneangel45/FocusFlow)** | **Deep Work Discipline Engine & Desktop HUD** | Unified Go CLI & zero-dependency Python Catppuccin Mocha HUD with SHA-256 dual-stack IPv4/IPv6 `hosts` sinkholing, recurring `schedule` daemon, 90-day contribution heatmap, native OS notifications, and privilege-hardened lifecycle hooks. | [![CI](https://github.com/aloneangel45/FocusFlow/actions/workflows/ci.yml/badge.svg)](https://github.com/aloneangel45/FocusFlow/actions/workflows/ci.yml) | `Go` `Python` `Win32` |
 
 <details>
 <summary><strong>⚡ Quick-Install One-Liners (Linux / macOS / Windows / Go)</strong></summary>
 
 ```bash
+# MCPGate — Zero-Trust OS Sandbox & Egress DLP Firewall for MCP
+curl -fsSL https://raw.githubusercontent.com/aloneangel45/MCPGate/main/install.sh | sh
+
 # SymForge — Stripped Go & Rust Binary Forensics + MCP Server
 curl -fsSL https://raw.githubusercontent.com/aloneangel45/SymForge/main/install.sh | sh
 
-# ToolPrune — Adaptive MCP Token-Budget Proxy
+# ToolPrune — Adaptive MCP Token-Budget Proxy & Security Guard
 curl -fsSL https://raw.githubusercontent.com/aloneangel45/toolprune/main/install.sh | sh
 
-# TracePort — Zstd Shadow-Tree Flight Recorder
+# TracePort — Zstd Shadow-Tree Flight Recorder & Self-Healing MCP
 curl -fsSL https://raw.githubusercontent.com/aloneangel45/traceport/main/install.sh | sh
 
-# AgentFixture — Deterministic SSE & MCP Cassette Runner
+# AgentFixture — Deterministic SSE, Chaos & MCP Cassette Runner
 curl -fsSL https://raw.githubusercontent.com/aloneangel45/AgentFixture/main/install.sh | sh
 ```
 
 ```powershell
 # Windows PowerShell (Zero-Module .NET SHA-256 Verified Installers)
+irm https://raw.githubusercontent.com/aloneangel45/MCPGate/main/install.ps1 | iex
 irm https://raw.githubusercontent.com/aloneangel45/SymForge/main/install.ps1 | iex
 irm https://raw.githubusercontent.com/aloneangel45/toolprune/main/install.ps1 | iex
 irm https://raw.githubusercontent.com/aloneangel45/traceport/main/install.ps1 | iex
