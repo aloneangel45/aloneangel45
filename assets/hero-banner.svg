@@ -75,36 +75,36 @@
     <rect x="56" y="226" width="170" height="34" rx="9" fill="#181825" stroke="#a6e3a1" stroke-opacity="0.60" stroke-width="1.2"/>
     <circle cx="72" cy="243" r="4.2" fill="#a6e3a1"/>
     <text x="82" y="247" fill="#cdd6f4">MCPGate</text>
-    <text x="215" y="247" text-anchor="end" fill="#a6e3a1">v1.0.0</text>
+    <text x="215" y="247" text-anchor="end" fill="#a6e3a1">v1.0.1</text>
 
     <!-- SymForge -->
     <rect x="236" y="226" width="172" height="34" rx="9" fill="#181825" stroke="#f38ba8" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="252" cy="243" r="4.2" fill="#f38ba8"/>
     <text x="262" y="247" fill="#cdd6f4">SymForge</text>
-    <text x="397" y="247" text-anchor="end" fill="#f38ba8">v1.1.0</text>
+    <text x="397" y="247" text-anchor="end" fill="#f38ba8">v1.1.1</text>
 
     <!-- ToolPrune -->
     <rect x="418" y="226" width="176" height="34" rx="9" fill="#181825" stroke="#89b4fa" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="434" cy="243" r="4.2" fill="#89b4fa"/>
     <text x="444" y="247" fill="#cdd6f4">ToolPrune</text>
-    <text x="583" y="247" text-anchor="end" fill="#89b4fa">v1.4.0</text>
+    <text x="583" y="247" text-anchor="end" fill="#89b4fa">v1.4.1</text>
 
     <!-- TracePort -->
     <rect x="604" y="226" width="176" height="34" rx="9" fill="#181825" stroke="#cba6f7" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="620" cy="243" r="4.2" fill="#cba6f7"/>
     <text x="630" y="247" fill="#cdd6f4">TracePort</text>
-    <text x="769" y="247" text-anchor="end" fill="#cba6f7">v1.3.0</text>
+    <text x="769" y="247" text-anchor="end" fill="#cba6f7">v1.3.1</text>
 
     <!-- AgentFixture -->
     <rect x="790" y="226" width="184" height="34" rx="9" fill="#181825" stroke="#f9e2af" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="806" cy="243" r="4.2" fill="#f9e2af"/>
     <text x="816" y="247" fill="#cdd6f4">AgentFixture</text>
-    <text x="963" y="247" text-anchor="end" fill="#f9e2af">v1.3.0</text>
+    <text x="963" y="247" text-anchor="end" fill="#f9e2af">v1.3.1</text>
 
     <!-- FocusFlow -->
     <rect x="984" y="226" width="160" height="34" rx="9" fill="#181825" stroke="#94e2d5" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="1000" cy="243" r="4.2" fill="#94e2d5"/>
     <text x="1010" y="247" fill="#cdd6f4">FocusFlow</text>
-    <text x="1133" y="247" text-anchor="end" fill="#94e2d5">v2.3.0</text>
+    <text x="1133" y="247" text-anchor="end" fill="#94e2d5">v2.3.1</text>
   </g>
 </svg>
