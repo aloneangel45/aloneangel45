@@ -10,7 +10,7 @@
   <sub>
     <a href="https://github.com/aloneangel45?tab=repositories&amp;type=source">repositories</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/pulls?q=is%3Apr+author%3Aaloneangel45+is%3Amerged+-user%3Aaloneangel45">merged PRs (<!-- sync:merged_prs_count -->86<!-- /sync:merged_prs_count -->)</a>
+    <a href="https://github.com/pulls?q=is%3Apr+author%3Aaloneangel45+is%3Amerged+-user%3Aaloneangel45">merged PRs (<!-- sync:merged_prs_count -->95<!-- /sync:merged_prs_count -->)</a>
     &nbsp;·&nbsp;
     <a href="https://x.com/aloneangel20_1">x/@aloneangel20_1</a>
   </sub>
@@ -59,7 +59,7 @@
 
 ### Upstream Open Source
 
-<!-- sync:merged_prs_count -->86<!-- /sync:merged_prs_count --> merged pull requests across <!-- sync:distinct_repos_count -->34<!-- /sync:distinct_repos_count --> external repositories in Go, Rust, TypeScript, and Python.
+<!-- sync:merged_prs_count -->95<!-- /sync:merged_prs_count --> merged pull requests across <!-- sync:distinct_repos_count -->41<!-- /sync:distinct_repos_count --> external repositories in Go, Rust, TypeScript, and Python.
 
 <a href="https://github.com/pulls?q=is%3Apr+author%3Aaloneangel45+is%3Amerged+-user%3Aaloneangel45">
   <picture>
