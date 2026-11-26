@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 326" width="900" height="326" role="img" aria-label="Agent Runtime and Binary Forensics System Architecture">
+  <defs>
+    <pattern id="archGrid-light" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#d0d7de" stroke-width="0.6" stroke-opacity="0.32"/>
+    </pattern>
+    <marker id="arrowBlue-light" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#0969da"/>
+    </marker>
+    <marker id="arrowMuted-light" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#6e7781"/>
+    </marker>
+    <style>
+      @keyframes wireFlowLight { to { stroke-dashoffset: -16; } }
+      .data-wire-light { stroke-dasharray: 5 3; animation: wireFlowLight 1.6s linear infinite; }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="899" height="325" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="1" y="1" width="898" height="324" rx="5.5" fill="url(#archGrid-light)"/>
+
+  <!-- Orthogonal Data-Plane Wires -->
+  <path d="M 350 64 L 350 80 L 228 80 L 228 94" fill="none" stroke="#0969da" stroke-width="1.3" class="data-wire-light" marker-end="url(#arrowBlue-light)"/>
+  <path d="M 550 64 L 550 80 L 672 80 L 672 94" fill="none" stroke="#0969da" stroke-width="1.3" class="data-wire-light" marker-end="url(#arrowBlue-light)"/>
+  <path d="M 432 132 L 466 132" fill="none" stroke="#0969da" stroke-width="1.3" class="data-wire-light" marker-end="url(#arrowBlue-light)"/>
+
+  <!-- Row 2 -> Row 3 Orthogonal Sidecar Links -->
+  <path d="M 159 168 L 159 196" fill="none" stroke="#6e7781" stroke-width="1" marker-end="url(#arrowMuted-light)"/>
+  <path d="M 370 168 L 370 183 L 450 183 L 450 196" fill="none" stroke="#6e7781" stroke-width="1" marker-end="url(#arrowMuted-light)"/>
+  <path d="M 672 168 L 672 183 L 741 183 L 741 196" fill="none" stroke="#6e7781" stroke-width="1" marker-end="url(#arrowMuted-light)"/>
+
+  <!-- Row 1: Agent / IDE Client -->
+  <g>
+    <rect x="220" y="18" width="460" height="46" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="450" y="37" text-anchor="middle" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">Agent / IDE Client</text>
+    <text x="450" y="54" text-anchor="middle" fill="#59636e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">Claude Code  &#xB7;  Cursor  &#xB7;  Windsurf  &#xB7;  Zed  &#xB7;  CLI</text>
+  </g>
+
+  <!-- Row 2 Left: ToolPrune -->
+  <g>
+    <rect x="24" y="96" width="408" height="72" rx="5" fill="#f6f8fa" stroke="#0969da" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="40" y="118" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700">ToolPrune</text>
+    <text x="416" y="118" text-anchor="end" fill="#0969da" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">MCP PROXY</text>
+    <text x="40" y="137" fill="#59636e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">Adaptive token-budget filter &amp; tool-poisoning guard</text>
+    <text x="40" y="155" fill="#6e7781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">stdio / SSE / HTTP  &#xB7;  93.3%–96.5% token cut  &#xB7;  &lt;0.4ms</text>
+  </g>
+
+  <!-- Row 2 Right: MCPGate -->
+  <g>
+    <rect x="468" y="96" width="408" height="72" rx="5" fill="#f6f8fa" stroke="#0969da" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="484" y="118" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700">MCPGate</text>
+    <text x="860" y="118" text-anchor="end" fill="#0969da" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">SANDBOX &amp; DLP</text>
+    <text x="484" y="137" fill="#59636e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">Zero-trust OS containment &amp; CONNECT egress firewall</text>
+    <text x="484" y="155" fill="#6e7781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">Win32 Job / Landlock / Seatbelt  &#xB7;  SSRF / IMDS / .env block</text>
+  </g>
+
+  <!-- Row 3 Col 1: SymForge -->
+  <g>
+    <rect x="24" y="198" width="270" height="66" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="38" y="219" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700">SymForge</text>
+    <text x="280" y="219" text-anchor="end" fill="#8250df" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5">FORENSICS</text>
+    <text x="38" y="237" fill="#59636e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Stripped Go &amp; Rust binary analysis</text>
+    <text x="38" y="253" fill="#6e7781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5">ELF / PE / Mach-O  &#xB7;  pclntab  &#xB7;  v0</text>
+  </g>
+
+  <!-- Row 3 Col 2: TracePort -->
+  <g>
+    <rect x="315" y="198" width="270" height="66" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="329" y="219" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700">TracePort</text>
+    <text x="571" y="219" text-anchor="end" fill="#8250df" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5">CHECKPOINTS</text>
+    <text x="329" y="237" fill="#59636e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Zstd shadow-tree flight recorder</text>
+    <text x="329" y="253" fill="#6e7781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5">CAS store  &#xB7;  -86.1% size  &#xB7;  $0 rollback</text>
+  </g>
+
+  <!-- Row 3 Col 3: AgentFixture -->
+  <g>
+    <rect x="606" y="198" width="270" height="66" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="620" y="219" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700">AgentFixture</text>
+    <text x="862" y="219" text-anchor="end" fill="#8250df" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5">OFFLINE CI</text>
+    <text x="620" y="237" fill="#59636e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11">Deterministic cassette &amp; chaos runner</text>
+    <text x="620" y="253" fill="#6e7781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5">SSE + stdio replay  &#xB7;  429 / 529 faults</text>
+  </g>
+
+  <!-- Row 4: FocusFlow Host Base Bar -->
+  <g>
+    <rect x="24" y="282" width="852" height="30" rx="5" fill="#f6f8fa" stroke="#d8dee4" stroke-width="1"/>
+    <text x="38" y="301" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">FocusFlow</text>
+    <text x="112" y="301" fill="#59636e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">Host-Level Deep-Work Supervisor  &#xB7;  Atomic SHA-256 IPv4/IPv6 Hosts Sinkhole  &#xB7;  Win32 / Linux / macOS</text>
+  </g>
+</svg>
