@@ -10,48 +10,48 @@
   <g transform="translate(24, 17) scale(0.875)" fill="#a371f7">
     <path d="M5.45 5.154A4.25 4.25 0 0 0 9.25 7.5h1.378a2.251 2.251 0 1 1 0 1.5H9.25A5.734 5.734 0 0 1 5 7.123v3.505a2.25 2.25 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.95-.218ZM4.25 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm8.5-4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM5 3.25a.75.75 0 1 0 0 .005V3.25Z"/>
   </g>
-  <text x="45" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"><tspan fill="#f0f6fc" font-size="13.5" font-weight="600">Upstream Open Source</tspan><tspan fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">  &#xB7;  95 merged PRs across 41 repositories</tspan></text>
-  <text x="876" y="29" text-anchor="end" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">synced 2026-11-26 UTC</text>
+  <text x="45" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"><tspan fill="#f0f6fc" font-size="13.5" font-weight="600">Upstream Open Source</tspan><tspan fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">  &#xB7;  103 merged PRs across 48 repositories</tspan></text>
+  <text x="876" y="29" text-anchor="end" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">synced 2026-11-27 UTC</text>
   <text x="24" y="72" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.9">HIGHEST-STARRED TARGETS</text>
-  <circle cx="29" cy="92" r="3.5" fill="#8b949e"/>
-  <text x="42" y="96" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">prettier/prettier</text>
+  <circle cx="29" cy="92" r="3.5" fill="#3178c6"/>
+  <text x="42" y="96" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">stablyai/orca</text>
   <path transform="translate(422, 87) scale(0.625)" fill="#6e7681" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-  <text x="480" y="96" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">52.5k</text>
-  <text x="542" y="96" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">1 PR</text>
-  <circle cx="29" cy="116" r="3.5" fill="#3572A5"/>
-  <text x="42" y="120" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">HKUDS/LightRAG</text>
+  <text x="480" y="96" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">141.8k</text>
+  <text x="542" y="96" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">2 PRs</text>
+  <circle cx="29" cy="116" r="3.5" fill="#8b949e"/>
+  <text x="42" y="120" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">prettier/prettier</text>
   <path transform="translate(422, 111) scale(0.625)" fill="#6e7681" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-  <text x="480" y="120" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">40.9k</text>
+  <text x="480" y="120" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">52.5k</text>
   <text x="542" y="120" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">1 PR</text>
-  <circle cx="29" cy="140" r="3.5" fill="#3178c6"/>
-  <text x="42" y="144" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">C4illin/ConvertX</text>
+  <circle cx="29" cy="140" r="3.5" fill="#3572A5"/>
+  <text x="42" y="144" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">HKUDS/LightRAG</text>
   <path transform="translate(422, 135) scale(0.625)" fill="#6e7681" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-  <text x="480" y="144" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">19.8k</text>
-  <text x="542" y="144" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">2 PRs</text>
+  <text x="480" y="144" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">40.9k</text>
+  <text x="542" y="144" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">1 PR</text>
   <circle cx="29" cy="164" r="3.5" fill="#3178c6"/>
-  <text x="42" y="168" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">openchamber/openchamber</text>
+  <text x="42" y="168" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">C4illin/ConvertX</text>
   <path transform="translate(422, 159) scale(0.625)" fill="#6e7681" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-  <text x="480" y="168" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">13.3k</text>
-  <text x="542" y="168" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">1 PR</text>
-  <circle cx="29" cy="188" r="3.5" fill="#00ADD8"/>
-  <text x="42" y="192" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">hashicorp/terraform-provider-aws</text>
+  <text x="480" y="168" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">19.8k</text>
+  <text x="542" y="168" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">2 PRs</text>
+  <circle cx="29" cy="188" r="3.5" fill="#3178c6"/>
+  <text x="42" y="192" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">e2e-inc/e2e</text>
   <path transform="translate(422, 183) scale(0.625)" fill="#6e7681" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-  <text x="480" y="192" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">11.2k</text>
+  <text x="480" y="192" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">14.5k</text>
   <text x="542" y="192" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">1 PR</text>
   <circle cx="29" cy="212" r="3.5" fill="#3178c6"/>
-  <text x="42" y="216" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">open-pencil/open-pencil</text>
+  <text x="42" y="216" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">openchamber/openchamber</text>
   <path transform="translate(422, 207) scale(0.625)" fill="#6e7681" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-  <text x="480" y="216" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">10.1k</text>
-  <text x="542" y="216" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">2 PRs</text>
-  <circle cx="29" cy="236" r="3.5" fill="#dea584"/>
-  <text x="42" y="240" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">erkamyaman/rust-anything</text>
+  <text x="480" y="216" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">13.3k</text>
+  <text x="542" y="216" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">1 PR</text>
+  <circle cx="29" cy="236" r="3.5" fill="#00ADD8"/>
+  <text x="42" y="240" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">hashicorp/terraform-provider-aws</text>
   <path transform="translate(422, 231) scale(0.625)" fill="#6e7681" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-  <text x="480" y="240" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">9.9k</text>
+  <text x="480" y="240" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">11.2k</text>
   <text x="542" y="240" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">1 PR</text>
-  <circle cx="29" cy="260" r="3.5" fill="#3178c6"/>
-  <text x="42" y="264" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">CodeWithCJ/SparkyFitness</text>
+  <circle cx="29" cy="260" r="3.5" fill="#dea584"/>
+  <text x="42" y="264" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">erkamyaman/rust-anything</text>
   <path transform="translate(422, 255) scale(0.625)" fill="#6e7681" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-  <text x="480" y="264" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">6.9k</text>
+  <text x="480" y="264" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11">10.6k</text>
   <text x="542" y="264" text-anchor="end" fill="#a371f7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="600">1 PR</text>
   <line x1="564" y1="60" x2="564" y2="274" stroke="#21262d" stroke-width="1"/>
   <text x="584" y="72" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.9">HIGHEST PR VOLUME</text>
@@ -75,17 +75,17 @@
   <text x="584" y="224" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.9">BY REPOSITORY LANGUAGE</text>
   <rect x="584" y="234" width="292" height="7" rx="3.5" fill="#21262d"/>
   <g clip-path="url(#langBarClip-dark)">
-    <rect x="584.0" y="234" width="164.6" height="7" fill="#00ADD8"/>
-    <rect x="748.6" y="234" width="52.8" height="7" fill="#3178c6"/>
-    <rect x="801.4" y="234" width="40.4" height="7" fill="#dea584"/>
-    <rect x="841.8" y="234" width="34.2" height="7" fill="#3572A5"/>
+    <rect x="584.0" y="234" width="154.6" height="7" fill="#00ADD8"/>
+    <rect x="738.6" y="234" width="60.1" height="7" fill="#3178c6"/>
+    <rect x="798.7" y="234" width="42.9" height="7" fill="#dea584"/>
+    <rect x="841.6" y="234" width="34.4" height="7" fill="#3572A5"/>
   </g>
   <circle cx="588" cy="259" r="3.5" fill="#00ADD8"/>
-  <text x="595" y="262.5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">Go 53</text>
+  <text x="595" y="262.5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">Go 54</text>
   <circle cx="662" cy="259" r="3.5" fill="#3178c6"/>
-  <text x="669" y="262.5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">TS 17</text>
+  <text x="669" y="262.5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">TS 21</text>
   <circle cx="736" cy="259" r="3.5" fill="#dea584"/>
-  <text x="743" y="262.5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">Rust 13</text>
+  <text x="743" y="262.5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">Rust 15</text>
   <circle cx="810" cy="259" r="3.5" fill="#3572A5"/>
-  <text x="817" y="262.5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">Python 11</text>
+  <text x="817" y="262.5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5">Python 12</text>
 </svg>

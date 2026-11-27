@@ -30,14 +30,14 @@
     <line x1="560" y1="88" x2="876" y2="88" stroke="#d8dee4" stroke-width="1"/>
     <circle class="live-dot" cx="864" cy="31" r="2.5" fill="#1a7f37"/>
     <text x="576" y="40" fill="#6e7781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.8">UPSTREAM PRS</text>
-    <text x="576" y="64" fill="#8250df" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700">95</text>
-    <text x="576" y="79" fill="#59636e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">merged &#xB7; 41 repos</text>
+    <text x="576" y="64" fill="#8250df" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700">103</text>
+    <text x="576" y="79" fill="#59636e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">merged &#xB7; 48 repos</text>
     <text x="734" y="40" fill="#6e7781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.8">RELEASES</text>
     <text x="734" y="64" fill="#0969da" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700">37</text>
     <text x="734" y="79" fill="#59636e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">6 Go binaries</text>
     <text x="576" y="108" fill="#6e7781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.8">1Y ACTIVITY</text>
-    <text x="576" y="132" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700">657</text>
-    <text x="576" y="147" fill="#59636e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">231 commits &#xB7; 216 PRs</text>
+    <text x="576" y="132" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700">711</text>
+    <text x="576" y="147" fill="#59636e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">239 commits &#xB7; 253 PRs</text>
     <text x="734" y="108" fill="#6e7781" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.8">FLAGSHIP CODE</text>
     <text x="734" y="132" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700">4.05 MB</text>
     <text x="734" y="147" fill="#59636e" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10">91% Go &#xB7; zero-dep</text>
